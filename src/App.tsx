@@ -5,6 +5,7 @@ import Shion from './pages/shion'//Shionのページをインポートしてい�
 import NotFound from './pages/not-found'
 import Api from './pages/api'
 import User from './pages/user'
+import Yamaharuna from './pages/yamaharuna'
 import MahoKawase from './pages/mahokawase'
 import Ishiya from './pages/ishiya'
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/shion" element={<Shion />} />{/* Shionのページへのルートを追加 */}
         <Route path="/api" element={<Api />} />
         <Route path="/user" element={<User />} />
+        <Route path="/yamaharuna" element={<Yamaharuna />} />
         <Route path="/mahokawase" element={<MahoKawase />} />
         <Route path="/ishiya" element={<Ishiya />} />
 
