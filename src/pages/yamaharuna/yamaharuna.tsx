@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import './yamaharuna.scss';
 
 function MyPage() {
+  
   return (
     <div className="mypage">
       <div className="mypage-container">

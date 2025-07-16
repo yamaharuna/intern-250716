@@ -6,6 +6,7 @@ import Api from './pages/api'
 import User from './pages/user'
 
 import Yamaharuna from './pages/yamaharuna'
+import Api2 from './pages/api2'
 
 import Ishiya from './pages/ishiya'
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/user" element={<User />} />
 
         <Route path="/yamaharuna" element={<Yamaharuna />} />
+        <Route path="/api2" element={<Api2 />} />
 
         <Route path="/ishiya" element={<Ishiya />} />
 
